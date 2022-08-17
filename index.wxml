@@ -1,0 +1,7 @@
+<view class = 'container'>
+  <image src = '{{src}}'style="width:240rpx;height:240rpx"mode = 'center'></image>
+  <text>{{name}}</text>
+  <button  open-type="getUserInfo"bindgetuserinfo = 'getMyInfo' type = 'primary'>
+    获取头像昵称
+  </button>
+  </view>
